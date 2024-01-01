@@ -4,3 +4,5 @@ ps ax | grep .py
 
 kill -9 "PID"
 
+python test2.py --coin_name="KRW-XXX"
+python stop.py --coin_name="KRW-XXX"
