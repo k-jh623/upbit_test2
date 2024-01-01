@@ -1,0 +1,6 @@
+nohup python3 test1.py > output.log &
+
+ps ax | grep .py
+
+kill -9 "PID"
+
